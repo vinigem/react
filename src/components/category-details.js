@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Item from './item';
+import Item from '../components/item';
 
 
 class CategoryDetails extends Component {

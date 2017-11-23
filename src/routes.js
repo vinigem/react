@@ -2,10 +2,10 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import App from './app';
-import Home from './home';
-import CategoryDetails from './category-details';
-import ItemDetails from './item-details';
-import NoMatch from './no-match';
+import Home from './components/home';
+import CategoryDetails from './components/category-details';
+import ItemDetails from './components/item-details';
+import NoMatch from './components/no-match';
 
 const routes = (
   <App>
