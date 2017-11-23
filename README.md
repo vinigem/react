@@ -13,14 +13,19 @@ my-app/
     index.html
     favicon.ico
   src/
-    App.js
-    Category.js
-    Content.js
-    Footer.js
-    Header.js
-    Home.js
+    layout/footer.js
+    layout/header.js
+    app.js
+    category-details.js
+    category.js
+    home.js
     index.css
     index.js
+    items-details.js
+    item.js
+    no-match.js
+    registerServiceWorker.js
+    routes.js
 ```
 ## Available Scripts
 
