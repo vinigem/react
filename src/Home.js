@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom'
+
+import Category from './category.js';
 
 class Home extends Component {
 
@@ -17,11 +18,9 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="categories-box">
+      <div className="flex-box">
         { this.categories.map(category => {
-            return <div className="category-item" key={category.id}>
-              <NavLink to={`category/${category.id}`}>{category.name}</NavLink>
-            </div>
+            return <Category key={category.id} category={category}></Category>  
           })
         }
       </div>

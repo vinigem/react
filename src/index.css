@@ -43,14 +43,14 @@ div.content {
   overflow: auto;
 }
 
-div.categories-box {
+div.flex-box {
   display: flex;
 	flex-wrap: wrap;
   justify-content: flex-start;
   padding: 0 1em;
 }
 
-div.category-item {
+div.flex-item {
   width: 350px;
   height: 180px;
   margin: 0.5em auto;
