@@ -60,3 +60,20 @@ div.flex-item {
   border-radius: 10px;
   text-align: center;
 }
+
+.item-title {
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+  color: #0833ff;
+  font-weight: bold;
+}
+
+.strike-price, .discount, .offer-price {
+  font-style: italic;
+  font-weight: bold; 
+}
+
+.text-center {
+  text-align: center;
+}

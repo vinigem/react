@@ -5,7 +5,7 @@ class ItemDetails extends Component {
   render() {
     return (
       <div>
-        <h3>Item {this.props.match.params.id}</h3>
+        <h3 className="text-center">Item {this.props.match.params.id}</h3>
       </div>
     );
   }

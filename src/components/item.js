@@ -11,7 +11,10 @@ class Item extends Component {
   render() {
     return (
       <div className="flex-item">
-        <NavLink to={`/item/${this.item.id}`}>{this.item.name}</NavLink>
+        <NavLink to={`/item/${this.item.id}`} className="item-title">{this.item.name}</NavLink>
+        <p className="strike-price">Price: <strike>&#8377;{this.item.price}</strike></p>
+        <p className="discount">Discount: {this.item.discount}</p>
+        <p className="offer-price">Offer Price: &#8377;{this.item.offer_price}</p>
       </div>
     );
   }

@@ -11,7 +11,8 @@ class Category extends Component {
   render() {
     return (
       <div className="flex-item">
-        <NavLink to={`/category/${this.category.id}`}>{this.category.name}</NavLink>
+        <NavLink to={`/category/${this.category.id}`} className="item-title">{this.category.name}</NavLink>
+        <p>Total Items: {this.category.total_items}</p>
       </div>
     );
   }
